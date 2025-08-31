@@ -1,0 +1,78 @@
+Exploratory Data Analysis & Sales Performance Analysis
+============================================================
+
+Model Results:
+Coefficients: {'Profit': 4.2906169751144345, 'Discount': -101.82992280827929}
+Intercept: 111.5339702573554
+Mean Squared Error: 60887.14853693564
+R² Score: 0.7848115672018567
+
+
+--- Project 1: General EDA ---
+       Product Region        Sales      Profit    Discount    Category  \
+count      500    500   500.000000  500.000000  500.000000         500   
+unique      10      4          NaN         NaN         NaN           3   
+top      Table   West          NaN         NaN         NaN  Stationery   
+freq        86    140          NaN         NaN         NaN         172   
+first      NaN    NaN          NaN         NaN         NaN         NaN   
+last       NaN    NaN          NaN         NaN         NaN         NaN   
+mean       NaN    NaN   398.207100   71.532592    0.198820         NaN   
+std        NaN    NaN   532.461346  109.717428    0.116943         NaN   
+min        NaN    NaN     3.000000    0.221737    0.000000         NaN   
+25%        NaN    NaN    36.800000    6.567442    0.100000         NaN   
+50%        NaN    NaN   211.250000   31.419914    0.190000         NaN   
+75%        NaN    NaN   510.000000   95.504272    0.300000         NaN   
+max        NaN    NaN  3200.000000  852.292490    0.400000         NaN   
+
+                       Date  
+count                   500  
+unique                  169  
+top     2023-01-29 00:00:00  
+freq                      6  
+first   2023-01-01 00:00:00  
+last    2023-06-29 00:00:00  
+mean                    NaN  
+std                     NaN  
+min                     NaN  
+25%                     NaN  
+50%                     NaN  
+75%                     NaN  
+max                     NaN  
+
+Duplicates removed: Done
+Histograms, Boxplots, and Correlation Heatmap generated.
+
+
+--- Project 1: General EDA ---
+       Product Region        Sales      Profit    Discount    Category  \
+count      500    500   500.000000  500.000000  500.000000         500   
+unique      10      4          NaN         NaN         NaN           3   
+top      Table   West          NaN         NaN         NaN  Stationery   
+freq        86    140          NaN         NaN         NaN         172   
+first      NaN    NaN          NaN         NaN         NaN         NaN   
+last       NaN    NaN          NaN         NaN         NaN         NaN   
+mean       NaN    NaN   398.207100   71.532592    0.198820         NaN   
+std        NaN    NaN   532.461346  109.717428    0.116943         NaN   
+min        NaN    NaN     3.000000    0.221737    0.000000         NaN   
+25%        NaN    NaN    36.800000    6.567442    0.100000         NaN   
+50%        NaN    NaN   211.250000   31.419914    0.190000         NaN   
+75%        NaN    NaN   510.000000   95.504272    0.300000         NaN   
+max        NaN    NaN  3200.000000  852.292490    0.400000         NaN   
+
+                       Date  
+count                   500  
+unique                  169  
+top     2023-01-29 00:00:00  
+freq                      6  
+first   2023-01-01 00:00:00  
+last    2023-06-29 00:00:00  
+mean                    NaN  
+std                     NaN  
+min                     NaN  
+25%                     NaN  
+50%                     NaN  
+75%                     NaN  
+max                     NaN  
+
+Duplicates removed: Done
+Histograms, Boxplots, and Correlation Heatmap generated.
